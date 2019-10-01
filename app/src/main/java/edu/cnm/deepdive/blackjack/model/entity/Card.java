@@ -1,7 +1,5 @@
-package edu.cnm.deepdive.blackjack.model;
+package edu.cnm.deepdive.blackjack.model.entity;
 
-import android.graphics.Color;
-import android.graphics.Color;
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
