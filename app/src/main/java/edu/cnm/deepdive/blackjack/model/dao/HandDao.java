@@ -12,7 +12,7 @@ import java.util.List;
 public interface HandDao {
 
   @Insert
-  long[] inset(Hand... hands);
+  long[] insert(Hand... hands);
 
   @Query("SELECT * FROM Hand WHERE round_id = :roundId ORDER BY dealer DESC")
   LiveData<List<Hand>> getAllByRoundId(long roundId);
